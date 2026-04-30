@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,13 +12,13 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/svg+xml" href="https://upload.wikimedia.org/wikipedia/commons/e/e0/Idea_Bank_logo.svg">
 </head>
+
 <body>
     <header class="header">
         <div class="header-container">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Idea_Bank_logo.svg" alt="Idea Bank Logo" class="logo">
+            <img src="./assets/idea.png" alt="Idea Bank Logo" class="logo">
             <div class="header-text">
                 <h1>План виробничої практики</h1>
-                <p>Відділ верифікації | Розробка системи автоматизації</p>
             </div>
         </div>
     </header>
@@ -30,7 +31,7 @@
                 <h3>КАРПАТСЬКИЙ НАЦІОНАЛЬНИЙ УНІВЕРСИТЕТ ІМЕНІ ВАСИЛЯ СТЕФАНИКА</h3>
                 <h1 class="report-title">ЗВІТ<br><span>про виконання програми виробничої практики</span></h1>
             </div>
-            
+
             <div class="report-details-grid">
                 <div class="detail-item">
                     <span class="detail-label">Здобувач вищої освіти:</span>
@@ -62,10 +63,25 @@
                 <h2>Відгук і оцінка роботи студента на практиці</h2>
             </div>
             <div class="review-body">
-                <p>Студент <strong>Куцінський Денис Євгенович</strong> проходив навчальну практику в АТ «Ідея Банк» з 16 березня по 24 квітня 2026 року. Під час практики студент працював у якості розробника рішень для автоматизації банківських процесів у підрозділі верифікації клієнтів. Проєкт, над яким виконувалася робота, являє собою внутрішню веб-платформу для моніторингу та обробки даних, де серверна частина реалізована мовою Python із використанням фреймворку FastAPI, а клієнтська частина побудована на базі React із TypeScript для забезпечення надійної типізації інтерфейсу.</p>
-                <p>На практиці студент був залучений до розробки архітектури внутрішнього дашборду, що включало створення REST API-ендпоінтів для обробки верифікаційних запитів та проєктування схем даних у PostgreSQL. В обов'язки студента також входила програмна реалізація логіки автоматичного звітування, розробка компонентів інтерфейсу для візуалізації статусів перевірок та забезпечення інтеграції фронтенд-частини з банківськими сервісами. Окремим напрямом роботи стала оптимізація скриптів для порівняння даних із зовнішніх реєстрів, що дозволило автоматизувати рутинні операції відділу.</p>
-                <p>Студент добре впорався з поставленими завданнями та в заплановані терміни їх виконав, продемонстрував здатність швидко засвоювати нові технології в галузі фінтеху, вдумливо ставиться до якості коду та принципів інформаційної безпеки фінансової установи.</p>
-                <p>Рекомендацією для Дениса буде глибше вивчення архітектури високонавантажених банківських систем, методів машинного навчання для виявлення фрод-активності та інструментів контейнеризації для розгортання сервісів. Це дозволить бути більш конкурентним на ринку розробки програмного забезпечення.</p>
+                <p>Студент <strong>Куцінський Денис Євгенович</strong> проходив навчальну практику в АТ «Ідея Банк» з 16
+                    березня по 24 квітня 2026 року. Під час практики студент працював у якості розробника рішень для
+                    автоматизації банківських процесів у підрозділі верифікації клієнтів. Проєкт, над яким виконувалася
+                    робота, являє собою внутрішню веб-платформу для моніторингу та обробки даних, де серверна частина
+                    реалізована мовою Python із використанням фреймворку FastAPI, а клієнтська частина побудована на
+                    базі React із TypeScript для забезпечення надійної типізації інтерфейсу.</p>
+                <p>На практиці студент був залучений до розробки архітектури внутрішнього дашборду, що включало
+                    створення REST API-ендпоінтів для обробки верифікаційних запитів та проєктування схем даних у
+                    PostgreSQL. В обов'язки студента також входила програмна реалізація логіки автоматичного звітування,
+                    розробка компонентів інтерфейсу для візуалізації статусів перевірок та забезпечення інтеграції
+                    фронтенд-частини з банківськими сервісами. Окремим напрямом роботи стала оптимізація скриптів для
+                    порівняння даних із зовнішніх реєстрів, що дозволило автоматизувати рутинні операції відділу.</p>
+                <p>Студент добре впорався з поставленими завданнями та в заплановані терміни їх виконав, продемонстрував
+                    здатність швидко засвоювати нові технології в галузі фінтеху, вдумливо ставиться до якості коду та
+                    принципів інформаційної безпеки фінансової установи.</p>
+                <p>Рекомендацією для Дениса буде глибше вивчення архітектури високонавантажених банківських систем,
+                    методів машинного навчання для виявлення фрод-активності та інструментів контейнеризації для
+                    розгортання сервісів. Це дозволить бути більш конкурентним на ринку розробки програмного
+                    забезпечення.</p>
             </div>
             <div class="review-footer">
                 <div class="grade-box">
@@ -86,7 +102,8 @@
                             <div class="slider-content">
                                 <span class="slide-tag">РОЗРОБКА ПЛАТФОРМИ</span>
                                 <h2 class="slide-title">Внутрішня Система Верифікації</h2>
-                                <p class="slide-desc">Створення захищеної веб-платформи для автоматизації рутинних операцій моніторингу та обробки даних клієнтів АТ «Ідея Банк».</p>
+                                <p class="slide-desc">Створення захищеної веб-платформи для автоматизації рутинних
+                                    операцій моніторингу та обробки даних клієнтів АТ «Ідея Банк».</p>
                             </div>
                         </div>
                     </div>
@@ -97,7 +114,8 @@
                             <div class="slider-content">
                                 <span class="slide-tag">БЕКЕНД ТА АЛГОРИТМИ</span>
                                 <h2 class="slide-title">FastAPI та PostgreSQL</h2>
-                                <p class="slide-desc">Проєктування БД, розробка REST API для запитів та скриптів автоматичного порівняння даних із зовнішніх реєстрів.</p>
+                                <p class="slide-desc">Проєктування БД, розробка REST API для запитів та скриптів
+                                    автоматичного порівняння даних із зовнішніх реєстрів.</p>
                             </div>
                         </div>
                     </div>
@@ -108,7 +126,8 @@
                             <div class="slider-content">
                                 <span class="slide-tag">ФРОНТЕНД ІНТЕРФЕЙС</span>
                                 <h2 class="slide-title">Дашборд Адміністратора</h2>
-                                <p class="slide-desc">Розробка клієнтської частини на React та TypeScript для візуалізації статусів перевірок та зручної зміни результатів.</p>
+                                <p class="slide-desc">Розробка клієнтської частини на React та TypeScript для
+                                    візуалізації статусів перевірок та зручної зміни результатів.</p>
                             </div>
                         </div>
                     </div>
@@ -144,23 +163,39 @@
                 <h2>Візуалізація Проєкту</h2>
                 <p>Етапи реєстрації клієнтів та адміністративна панель</p>
             </div>
-            
+
             <div class="gallery-grid">
                 <!-- Registration Screenshots -->
                 <div class="gallery-column obank-mockups">
                     <h3 class="gallery-subtitle">Клієнтський Додаток (Реєстрація)</h3>
                     <div class="mockup-container column-mockups">
-                        <div class="phone-frame zoomable">
-                            <img src="assets/reg1.png" alt="Форма реєстрації" class="mockup-img">
+                        <div class="mockup-item">
+                            <div class="phone-frame zoomable">
+                                <img src="assets/reg1.png" alt="Форма реєстрації" class="mockup-img">
+                            </div>
+                            <p class="mockup-description">Стартовий екран реєстрації нового клієнта банку з введенням
+                                базових даних.</p>
                         </div>
-                        <div class="phone-frame zoomable">
-                            <img src="assets/reg2.png" alt="Завантаження документів" class="mockup-img">
+                        <div class="mockup-item">
+                            <div class="phone-frame zoomable">
+                                <img src="assets/reg2.png" alt="Завантаження документів" class="mockup-img">
+                            </div>
+                            <p class="mockup-description">Інтерфейс для завантаження та попередньої перевірки документів
+                                (ID-картки, ІПН).</p>
                         </div>
-                        <div class="phone-frame zoomable">
-                            <img src="assets/reg3.png" alt="Успішна реєстрація" class="mockup-img">
+                        <div class="mockup-item">
+                            <div class="phone-frame zoomable">
+                                <img src="assets/reg3.png" alt="Успішна реєстрація" class="mockup-img">
+                            </div>
+                            <p class="mockup-description">Екран підтвердження успішного завершення процесу подачі
+                                документів.</p>
                         </div>
-                        <div class="phone-frame zoomable">
-                            <img src="assets/reg4.png" alt="Біометрична перевірка" class="mockup-img">
+                        <div class="mockup-item">
+                            <div class="phone-frame zoomable">
+                                <img src="assets/reg4.png" alt="Біометрична перевірка" class="mockup-img">
+                            </div>
+                            <p class="mockup-description">Етап біометричної верифікації особи через систему
+                                розпізнавання обличчя.</p>
                         </div>
                     </div>
                 </div>
@@ -169,19 +204,77 @@
                 <div class="gallery-column project-mockups">
                     <h3 class="gallery-subtitle">Система Автоматизації Верифікації</h3>
                     <div class="mockup-container column-mockups">
-                        <div class="desktop-frame zoomable">
-                            <img src="assets/project1.png" alt="Головний Дашборд" class="mockup-img">
+                        <div class="mockup-item">
+                            <div class="desktop-frame zoomable">
+                                <img src="assets/project1.png" alt="Головний Дашборд" class="mockup-img">
+                            </div>
+                            <p class="mockup-description">Головна панель моніторингу помилок та загальної статистики
+                                роботи системи в реальному часі.</p>
                         </div>
-                        <div class="desktop-frame zoomable">
-                            <img src="assets/project2.png" alt="Профіль Клієнта" class="mockup-img">
+                        <div class="mockup-item">
+                            <div class="desktop-frame zoomable">
+                                <img src="assets/project2.png" alt="Пошук за критеріями" class="mockup-img">
+                            </div>
+                            <p class="mockup-description">Пошук за критеріями, що дозволяють переглядати анкетні дані,
+                                що відповідають тому чи іншому критерію.</p>
                         </div>
-                        <div class="desktop-frame zoomable">
-                            <img src="assets/project3.png" alt="Історія Транзакцій" class="mockup-img">
+                        <div class="mockup-item">
+                            <div class="desktop-frame zoomable">
+                                <img src="assets/project3.png" alt="Пошук за ПІБ та серією паспорта" class="mockup-img">
+                            </div>
+                            <p class="mockup-description">Пошук за ПІБ та серією паспорта, що дозволяє переглядати
+                                анкетні дані, що відповідають тому чи іншому параметру.</p>
                         </div>
-                        <div class="desktop-frame zoomable">
-                            <img src="assets/project4.png" alt="Аналітика Системи" class="mockup-img">
+                        <div class="mockup-item">
+                            <div class="desktop-frame zoomable">
+                                <img src="assets/project4.png" alt="Експорт CSV" class="mockup-img">
+                            </div>
+                            <p class="mockup-description">Вигляд готової таблиці у форматі .csv для подальшого аналізу.
+                            </p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Reflection Section -->
+        <section class="project-reflection">
+            <div class="reflection-container">
+                <div class="reflection-card project-info">
+                    <div class="card-icon">🏗️</div>
+                    <h2>Про проєкт</h2>
+                    <p>Основним завданням проєкту стала розробка системи збору та аналізу логів про помилки, що
+                        виникають у процесі верифікації. Платформа дозволяє в реальному часі отримувати дані про
+                        технічні збої, структурувати їх за типом та критичністю, а також формувати детальну звітність.
+                        Це значно спрощує процес ідентифікації причин виникнення проблем та суттєво пришвидшує їх
+                        виправлення технічною командою, мінімізуючи простої в роботі банківських сервісів.</p>
+                </div>
+
+                <div class="reflection-card what-learned">
+                    <div class="card-icon">💡</div>
+                    <h2>Чому я навчився</h2>
+                    <ul class="learned-list">
+                        <li>
+                            <strong>Технологічний стек:</strong>
+                            Поглибив знання Python (FastAPI) та навчився будувати надійні API. На практиці застосував
+                            React з TypeScript для створення складних інтерфейсів.
+                        </li>
+                        <li>
+                            <strong>Робота з даними:</strong>
+                            Отримав досвід проєктування реляційних баз даних у PostgreSQL та написання складних
+                            SQL-запитів для аналітики.
+                        </li>
+                        <li>
+                            <strong>Банківські процеси:</strong>
+                            Ознайомився з регламентами верифікації клієнтів (KYC) та принципами безпеки фінансових
+                            даних.
+                        </li>
+                        <li>
+                            <strong>Soft Skills:</strong>
+                            Навчився працювати в команді, дотримуватися дедлайнів та документувати код згідно зі
+                            стандартами банку.
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>
@@ -215,4 +308,5 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>

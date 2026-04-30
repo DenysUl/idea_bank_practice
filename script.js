@@ -104,7 +104,12 @@ document.addEventListener('DOMContentLoaded', () => {
         img.addEventListener('click', function() {
             lightbox.style.display = "flex";
             lightboxImg.src = this.src;
-            lightboxCaption.innerHTML = this.alt;
+            
+            // Get description from the nearest .mockup-description
+            const mockupItem = this.closest('.mockup-item');
+            const description = mockupItem ? mockupItem.querySelector('.mockup-description').innerText : "";
+            
+            lightboxCaption.innerHTML = `<strong>${this.alt}</strong><br><span style="font-size: 1rem; opacity: 0.8; margin-top: 10px; display: block; font-weight: 400;">${description}</span>`;
             document.body.style.overflow = "hidden"; // Prevent scrolling
         });
     });
